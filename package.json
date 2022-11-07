@@ -1,6 +1,6 @@
 {
   "name": "date2calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple function that takes date as a parameter and turns it into a calendar in the form of a two-dimensional array",
   "main": "dist/script.js",
   "types": "dist/script.d.ts",

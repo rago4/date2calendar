@@ -6,6 +6,7 @@
     "module": "esnext",
     "declaration": true,
     "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
     "strict": true
   },
   "include": ["src"],
