@@ -1,5 +1,3 @@
-import dayjs from "dayjs";
-
 interface ISettings {
   date: Date;
 }
@@ -11,9 +9,10 @@ interface ISettings {
  * @example const calendar = date2calendar({ date: new Date() });
  */
 export default function date2calendar({ date }: ISettings) {
-  const now = dayjs(date);
-  const firstDay = now.startOf("month").get("day");
-  const lastDay = now.endOf("month").get("date");
+  const year = date.getFullYear();
+  const month = date.getMonth();
+  const firstDay = new Date(year, month, 1).getDay();
+  const lastDay = new Date(year, month + 1, 0).getDate();
   const days = 7;
   const weeks = Math.ceil((firstDay + lastDay) / days);
 
