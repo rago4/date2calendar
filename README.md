@@ -13,6 +13,8 @@ npm install date2calendar
 ## Usage
 
 ```js
+import date2calendar from "date2calendar";
+
 const calendar = date2calendar({
   date: new Date(),
 });
