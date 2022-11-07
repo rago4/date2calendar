@@ -1,0 +1,31 @@
+{
+  "name": "date2calendar",
+  "version": "0.1.0",
+  "description": "A simple function that takes date as a parameter and turns it into a calendar in the form of a two-dimensional array",
+  "main": "dist/script.js",
+  "types": "dist/script.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rago4/date2calendar.git"
+  },
+  "keywords": [
+    "calendar",
+    "dates"
+  ],
+  "author": "rago4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rago4/date2calendar/issues"
+  },
+  "homepage": "https://github.com/rago4/date2calendar#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.6"
+  }
+}
