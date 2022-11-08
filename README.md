@@ -2,7 +2,7 @@
 
 A simple function that takes date as a parameter and turns it into a calendar in the form of a two-dimensional array (of weeks and days) which you can use to build fully customizable calendar components.
 
-This package is also a part of an article on DEV Community - you can check it out [here](#).
+This package is also a part of an article on DEV Community - you can check it out [here](https://dev.to/rgolawski/simple-calendar-in-a-few-lines-of-code-2n00).
 
 ## Install
 
